@@ -51,6 +51,8 @@ section#principal{
     border-radius: 20px;
     overflow: hidden; /*Todo que estiver fora da borda será escondido!*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    transition: width .3s , height .3s;/*Aqui faz uma pequena animação para quando aumentar ou diminuir a altura e a largura!*/
+    transition-timing-function: ease; /*Aqui suavisa a trasação do movimento das caixas!*/
 
 
     width: 250px;
