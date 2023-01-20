@@ -76,4 +76,17 @@ div#imagem{
 div#formulario{
     padding: 10px;
     display: block;
+
+}
+
+div#formulario > h1{
+    text-align: center;
+    margin: 0px 0px 10px 0px ;
+
+    
+}
+
+div#formulario > p{
+    font-size: 0.8em;
+
 }
