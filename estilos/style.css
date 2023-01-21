@@ -46,18 +46,18 @@ section#principal{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% ,-50%);
     background-color: white;
     border-radius: 20px;
     overflow: hidden; /*Todo que estiver fora da borda será escondido!*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
     transition: width .3s , height .3s;/*Aqui faz uma pequena animação para quando aumentar ou diminuir a altura e a largura!*/
     transition-timing-function: ease; /*Aqui suavisa a trasação do movimento das caixas!*/
-
-
-    width: 250px;
-    height: 500px;
     
+    
+    width: 250px;
+    height: 560px; 
+    transform: translate(-50% ,-50%); /*sempre que for fazer uma transformção coloque sempre em ultimo para evitar bugs!*/
+
 
 
 }
@@ -98,7 +98,33 @@ div#pass, div#user{
     background-color: #5f2c82;
     border-radius: 8px;
     border: 1px solid black;
+
     
+}   
+
+div#pass,div#user > span{
+    color: white;
+    font-size: 1em;
+    /* background-color: black; */
+    margin-bottom: 10px;
+
+}
+
+input#isenha , input#iu{ /*classe para trabalhar com os inputs!*/
+    background-color: #49a09d;
+    border: none;
+    height: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    transform: translateY(-5px);
+
+}
+
+input#isenha, input#iu:focus-within{
+    /*foco da caixa*/
+    background-color: white;
+
 }
 
 label{
