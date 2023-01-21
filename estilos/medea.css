@@ -29,6 +29,10 @@
 
     }
 
+    form > a{
+        padding: 8px;
+        
+    }
 }
 
 @media screen and (min-width: 992px) {
