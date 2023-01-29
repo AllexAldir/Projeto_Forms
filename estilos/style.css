@@ -132,6 +132,10 @@ label{
 
 }
 
+form > a{
+    padding: 8px;
+}
+
 form > span > input[type=submit]{
     /*Todos os inputs que estão no meu form do tipo submit terão algo!*/
     width: 100%;
